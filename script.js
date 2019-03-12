@@ -32,6 +32,4 @@ function checkImage(el){
 	}
 }
 
-function nextPage(el) {
-	window.location.href = 'www.example.com';
-}
+
