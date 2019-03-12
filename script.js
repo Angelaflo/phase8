@@ -7,7 +7,7 @@ f = document.getElementById("correct6");
 g = document.getElementById("key");
 
 function nextImage(el) {
-	if (el.src.match("images/button.PNG")){
+	if (el.src.match("images/button.png")){
 		 el.src = "images/cat.PNG";
 	} 
 }
