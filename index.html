@@ -1,0 +1,74 @@
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Help Coraline Escape</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+
+
+
+<body>
+
+<div class="rect-div">
+	<div class="col">
+		<div class="box blue center-content">
+		<img src="images/button.PNG" class="restrict-img-size" id="correct1" onclick="nextImage(this)"/>
+		</div>
+		<div class="box purple center-content">
+		<img src="images/wbutton.PNG" class="restrict-img-size" id="incorrect" onClick="refreshPage()"/>
+		</div>
+		<div class="box blue center-content">
+		<img src="images/button.PNG" class="restrict-img-size" id="correct2" onclick="nextImage(this)"/>
+		</div>
+		<div class="box purple center-content">
+		<img src="images/button.PNG" class="restrict-img-size" id="correct3" onclick="nextImage(this)"/>
+		</div>
+		<div class="box blue center-content">
+		<img src="images/button.PNG" class="restrict-img-size" id="correct4" onclick="nextImage(this)"/>
+		</div>
+	</div>
+	<div class="col2">
+		<div class="box purple center-content">
+		<img src="images/wbutton.PNG" class="restrict-img-size" id="incorrect" onClick="refreshPage()"/>
+		</div>
+		<div class="box blue center-content">
+		<img src="images/button.PNG" class="restrict-img-size" id="correct5" onclick="nextImage(this)"/>
+		</div>
+		<div class="box purple center-content">
+		<img src="images/wbutton.PNG" class="restrict-img-size" id="incorrect" onClick="refreshPage()"/>
+		</div>
+		<div class="box blue center-content">
+		<img src="images/wbutton.PNG" class="restrict-img-size" id="incorrect" onClick="refreshPage()"/>
+		</div>
+		<div class="box purple center-content">
+		<img src="images/button.PNG" class="restrict-img-size" id="correct6" onclick="nextImage(this)"/>
+		</div>
+	</div>
+	
+</div>
+
+
+<div class="rect-div black">
+	<div class="row">
+		<div class="box2 center-content">
+		<img src="images/hint.PNG" class="res-img-size"/>
+		</div>
+		
+		<div class="box2 center-content">
+		<img src="images/caroline.PNG" class="res-img-size" onClick="checkImage()"/>
+		</div>
+		
+		<div class="box2 center-content">
+		<img src="images/key.PNG" id="key" class="hidden" class="res-img-size"/>
+		</div>
+	
+		</div>
+	</div>
+	
+<script src="script.js"></script>
+
+</body>
+
+</html>
