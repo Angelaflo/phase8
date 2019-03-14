@@ -6,13 +6,13 @@ margin: 0;
 display: flex;
 flex-wrap: wrap;
 
-}
+} //the whole webpage
 
 .box {
 	height: calc(100%/5);
 	width: 100%;
 	display: block;
-}
+} 
 
 .box2{
 	width:100%;
