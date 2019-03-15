@@ -32,4 +32,6 @@ function checkImage(el){
 	}
 } // onclick feature where you click coraline and checks if all the correct tiles and if it is, it makes the cat images opaque and makes the key that is hidden appear. If all the correct tiles isn't checked, this function won't do anyhting.
 
-
+function nextPage(el) {
+	window.location.href = 'https://ashleygonzalez9.github.io/phase8/escape.html';
+} //onclick feature where it takes you to the next page of the escape room. 
