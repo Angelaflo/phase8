@@ -6,7 +6,7 @@ margin: 0;
 display: flex;
 flex-wrap: wrap;
 
-} //the whole webpage
+} 
 
 .box {
 	height: calc(100%/5);
