@@ -10,8 +10,9 @@
 
 
 <body>
-
+<!--Left half side of the website-->
 <div class="rect-div">
+	<!--first column on the left half-->
 	<div class="col">
 		<div class="box blue center-content">
 		<img src="images/button.png" class="restrict-img-size" id="correct1" onclick="nextImage(this)"/>
@@ -29,6 +30,7 @@
 		<img src="images/button.png" class="restrict-img-size" id="correct4" onclick="nextImage(this)"/>
 		</div>
 	</div>
+	<!--second column on left half-->
 	<div class="col2">
 		<div class="box purple center-content">
 		<img src="images/wbutton.png" class="restrict-img-size" id="incorrect" onClick="refreshPage()"/>
@@ -49,18 +51,18 @@
 	
 </div>
 
-
+<!--right half side of website-->
 <div class="rect-div black">
-	<div class="row">
-		<div class="box2 center-content">
+	<div class="row"> <!--rows on the right half of website-->
+		<div class="box2 center-content"> <!--1st row-->
 		<img src="images/hint.PNG" class="res-img-size"/>
 		</div>
 		
-		<div class="box2 center-content">
+		<div class="box2 center-content"> <!--2nd row-->
 		<img src="images/caroline.png" class="res-img-size" onClick="checkImage()"/>
 		</div>
 		
-		<div class="box2 center-content">
+		<div class="box2 center-content"> <!--3rd row-->
 		<img src="images/key.png" id="key" class="hidden" class="res-img-size" onClick="nextPage(this)"/>
 		</div>
 	
